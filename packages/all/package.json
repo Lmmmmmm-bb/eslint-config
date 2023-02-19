@@ -16,9 +16,9 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "local-pkg": "^0.4.3",
+    "@lmmmmmm/eslint-config-basic": "workspace:*",
     "@lmmmmmm/eslint-config-ts": "workspace:*",
-    "@lmmmmmm/eslint-config-basic": "workspace:*"
+    "local-pkg": "^0.4.3"
   },
   "devDependencies": {
     "eslint": "^8.33.0"

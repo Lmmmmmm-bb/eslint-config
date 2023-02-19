@@ -1,8 +1,8 @@
-const fs = require('fs')
-const { join } = require('path')
-const basic = require('@lmmmmmm/eslint-config-basic')
+const fs = require('fs');
+const { join } = require('path');
+const basic = require('@lmmmmmm/eslint-config-basic');
 
-const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json'
+const tsconfig = process.env.ESLINT_TSCONFIG || 'tsconfig.eslint.json';
 
 module.exports = {
   extends: [
@@ -58,18 +58,18 @@ module.exports = {
     // TS
     '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],
     '@typescript-eslint/member-delimiter-style': [
-      "error",
+      'error',
       {
-        "multiline": {
-          "delimiter": "semi",
-          "requireLast": true
+        multiline: {
+          delimiter: 'semi',
+          requireLast: true,
         },
-        "singleline": {
-          "delimiter": "semi",
-          "requireLast": false
+        singleline: {
+          delimiter: 'semi',
+          requireLast: false,
         },
-        "multilineDetection": "brackets"
-      }
+        multilineDetection: 'brackets',
+      },
     ],
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
     '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports', disallowTypeAnnotations: false }],
@@ -123,9 +123,9 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
     'brace-style': 'off',
     '@typescript-eslint/brace-style': [
-      "error",
-      "1tbs",
-      { "allowSingleLine": false }
+      'error',
+      '1tbs',
+      { allowSingleLine: false },
     ],
     'comma-dangle': 'off',
     '@typescript-eslint/comma-dangle': ['error', 'always-multiline'],
@@ -182,4 +182,4 @@ module.exports = {
     // handled by unused-imports/no-unused-imports
     '@typescript-eslint/no-unused-vars': 'off',
   },
-}
+};

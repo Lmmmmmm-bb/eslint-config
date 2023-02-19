@@ -1,9 +1,10 @@
-const { isPackageExists } = require('local-pkg')
+const { isPackageExists } = require('local-pkg');
 
-const TS = isPackageExists('typescript')
+const TS = isPackageExists('typescript');
 
-if (!TS)
-  console.warn('[@lmmmmmm/eslint-config] TypeScript is not installed, fallback to JavaScript only.')
+if (!TS) {
+  console.warn('[@lmmmmmm/eslint-config] TypeScript is not installed, fallback to JavaScript only.');
+}
 
 module.exports = {
   overrides: [
@@ -106,4 +107,4 @@ module.exports = {
     'vue/space-unary-ops': ['error', { words: true, nonwords: false }],
     'vue/template-curly-spacing': 'error',
   },
-}
+};
