@@ -1,0 +1,27 @@
+{
+  "name": "@lmmmmmm/eslint-config-ts",
+  "version": "0.0.0",
+  "description": "Lmmmmmm-bb's ESLint config of TypeScript",
+  "author": "_lmmmmmm",
+  "license": "MIT",
+  "homepage": "https://github.com/Lmmmmmm-bb/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@lmmmmmm/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
+}

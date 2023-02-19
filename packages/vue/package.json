@@ -1,0 +1,26 @@
+{
+  "name": "@lmmmmmm/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "Lmmmmmm-bb's ESLint config of Vue",
+  "author": "_lmmmmmm",
+  "license": "MIT",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@lmmmmmm/eslint-config-basic": "workspace:*",
+    "@lmmmmmm/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^9.9.0",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
+}
