@@ -36,7 +36,7 @@ module.exports = {
     'arrow-spacing': ['error', { before: true, after: true }],
     'arrow-body-style': ['error', 'as-needed', { requireReturnForObjectLiteral: false }],
     'block-spacing': ['error', 'always'],
-    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
+    'brace-style': ['error', '1tbs', { allowSingleLine: false }],
     'camelcase': ['error', {
       allow: ['^UNSAFE_'],
       properties: 'never',
@@ -200,7 +200,7 @@ module.exports = {
     'quote-props': ['error', 'as-needed'],
     'quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: false }],
     'rest-spread-spacing': ['error', 'never'],
-    'semi': ['error', 'never'],
+    'semi': ['error', 'always'],
     'semi-spacing': ['error', { before: false, after: true }],
     'space-before-blocks': ['error', 'always'],
     'space-before-function-paren': ['error', 'always'],
