@@ -6,14 +6,13 @@ module.exports = {
   ],
   settings: {
     react: {
-      version: '17.0',
+      version: 'detect',
     },
   },
+  plugins: ['react'],
   rules: {
-    'jsx-quotes': [
-      'error',
-      'prefer-double',
-    ],
+    'jsx-quotes': ['error', 'prefer-double'],
     'react/react-in-jsx-scope': 'off',
+    'react/self-closing-comp': 'error',
   },
 };
