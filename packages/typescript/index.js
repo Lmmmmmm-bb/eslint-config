@@ -54,6 +54,7 @@ module.exports = {
   ),
   rules: {
     'import/named': 'off',
+    'arrow-body-style': ['error', 'as-needed', { requireReturnForObjectLiteral: false }],
 
     // TS
     '@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }],

@@ -34,6 +34,7 @@ module.exports = {
       checkForEach: false,
     }],
     'arrow-spacing': ['error', { before: true, after: true }],
+    'arrow-body-style': ['error', 'as-needed', { requireReturnForObjectLiteral: false }],
     'block-spacing': ['error', 'always'],
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     'camelcase': ['error', {
