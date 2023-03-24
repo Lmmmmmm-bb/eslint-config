@@ -191,7 +191,26 @@ module.exports = {
   ],
   rules: {
     // import
-    'import/order': 'error',
+    'import/order': [
+      'error',
+      {
+        groups: [
+          ['builtin', 'external'],
+          'internal',
+          ['parent', 'sibling', 'index'],
+        ],
+        pathGroups: [
+          {
+            pattern: '~/**',
+            group: 'internal',
+          },
+          {
+            pattern: '@/**',
+            group: 'internal',
+          },
+        ],
+      },
+    ],
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
