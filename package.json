@@ -2,7 +2,7 @@
   "name": "@lmmmmmm/eslint-config-monorepo",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@7.27.1",
+  "packageManager": "pnpm@8.5.1",
   "author": "_lmmmmmm",
   "license": "MIT",
   "scripts": {
@@ -12,8 +12,8 @@
   },
   "devDependencies": {
     "@lmmmmmm/eslint-config": "*",
-    "bumpp": "^8.2.1",
-    "eslint": "^8.33.0",
-    "eslint-plugin-antfu": "^0.35.2"
+    "bumpp": "^9.1.0",
+    "eslint": "^8.41.0",
+    "eslint-plugin-antfu": "^0.39.0"
   }
 }
