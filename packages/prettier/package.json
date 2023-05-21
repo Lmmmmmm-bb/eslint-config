@@ -1,12 +1,13 @@
 {
-  "name": "@lmmmmmm/eslint-config-react",
+  "name": "@lmmmmmm/eslint-config-prettier",
   "version": "0.2.1",
-  "description": "Lmmmmmm-bb's ESLint config of React",
+  "description": "Lmmmmmm-bb's ESLint config of Prettier",
   "author": "_lmmmmmm",
   "license": "MIT",
   "homepage": "https://github.com/Lmmmmmm-bb/eslint-config",
   "keywords": [
-    "eslint-config"
+    "eslint-config",
+    "prettier"
   ],
   "main": "index.js",
   "files": [
@@ -19,13 +20,11 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@lmmmmmm/eslint-config-ts": "workspace:*",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8"
   },
   "devDependencies": {
-    "eslint": "^8.41.0",
-    "react": "^18.2.0",
-    "typescript": "^5.0.4"
+    "eslint": "^8.41.0"
   }
 }
